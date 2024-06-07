@@ -80,7 +80,17 @@ Check you git commits and logs:
 
 git log
 
+Check the compact version of the status for repository:
+git status --short
 
+Commit the updated files directly, skipping the staging environment:
+git commit -a -m <msg>
+
+Show all git possible commands in command line:
+git help --all
+
+Get all the change history of the origin for this branch:
+git fetch origin
 
 
 
