@@ -1,0 +1,13 @@
+CVCS(Centralized version control system):
+  Local copy is not present
+  Everything is hosted to one server
+  Can't access without connecting to network where it is hosted
+  If the server goes down everything will be lost
+
+DVCS(Distributed version control system):
+  Can create a local copy using push/pull of the main repo
+  Can work without network locally and then push those changes to the mail repo
+
+Tag:
+  Used to mark a release point of your stable code
+  Create historic restore points
