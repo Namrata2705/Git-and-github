@@ -11,3 +11,15 @@ DVCS(Distributed version control system):
 Tag:
   Used to mark a release point of your stable code
   Create historic restore points
+
+Stash:
+git stash command saves the previously written code and then returns to the last commit for a fresh start. Now you can add the new feature without disturbing the old one as it is saved locally. After committing to the new feature you can go on with working on the old feature which was incomplete and uncommitted.
+Preserve changes without commting them.
+
+The types of branches that can be present in GitFlow are:
+
+Master – Used for product release
+Develop – Used for ongoing development
+Feature Branching – branches off the develop branch to develop new features.
+Release – Assist in preparing a new production release and bug fixing, typically branched from the develop branch, and necessitating merges back into both develop and master branches.
+Hotfix – Hotfix branches aid in addressing discovered bugs swiftly, allowing developers to continue their work on the develop branch while the issue is resolved. Unlike release branches, hotfix branches are created from master branch specifically for critical bug resolution in the production release.
